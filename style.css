@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;500;600&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+*{
+    padding: 0; margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-image: url("img/background.jpg");
+}
+
+img.udacoding{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h2{
+    display: block;
+    padding-top: 10px;
+    color: grey;
+    text-align: center;
+    width: 390px;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form{
+    font-family: 'Open Sans';
+    width: 380px;
+    height: 640px;
+    margin: auto;
+    background-color: #f1f1f1f1;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(231, 226, 226);
+}
+
+input[type=text], input[type=password],  input[type=email],  input[type=number]{
+    width:100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+label{
+    color: grey;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+button{
+    background-color: blue;
+    font-size: medium;
+    color: white;
+    padding: 10px 16px;
+    margin: 12px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+
+
+.img-container{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.container{
+    padding: 16px;
+    flex-wrap: wrap;
+}
+
+p{
+    text-align: right;
+    color: grey;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+form i{
+    position: absolute;
+    font-size: 20px;
+    color: grey;
+    margin: 15px 0 0 -45px;
+}
+
+i.fa-user{
+    margin: 15px -30px;
+}
+
+i.fa-phone{
+    margin: 15px -30px;
+}
+
+i.fa-envelope{
+    margin: 15px -30px;
+}
+
+i.fa-lock{
+    margin: 15px -30px;
+}
+
+i.fa-key{
+    margin: 15px -30px;
+}
+
+
+
+/* Tampilan  Phone */
+@media only screen and (max-width:400px){
+
+    h2,
+    .login-form,
+    .register-form,
+    .img-container,
+    .socmed-login{
+        width: 100%;
+    }
+}
+    
+
+
+
+
+.separator{
+    margin-bottom: 25px;
+    border-top: 1px solid #CCCCCC;
+    position: relative;
+}
+.separator-text{
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    margin-left: -22px;
+    padding: 0px 10px;
+    background: #f1f1f1;
+    color: #8a8a8a;
+}
+.fa{
+    margin-left: -20px;
+}
+
+.fa-brands{
+    margin-top: 2px;
+    margin-left: -30px;
+    color: #f1f1f1;
+}
+
+.socmed-login .socmed-btn{
+    display: block;
+    margin: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+.fa-facebook{
+    background-color: darkblue;
+    margin-right: 10px;
+}
+a.fa-facebook:hover{
+    background-color: blue;
+}
+
+.fa-google{
+    background-color: rgb(228, 13, 13);
+    margin-right: 10px;
+}
+a.fa-google:hover{
+    background-color: red;
+}
+
+.fa-github{
+    background-color: rgb(23, 23, 26);
+    margin-right: 10px;
+}
+a.fa-github:hover{
+    background-color: black;
+}
+
